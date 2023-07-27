@@ -14,23 +14,22 @@ const itemList = [
   {'id': 8, 'title': 'Siloed Communication', 'description': 'Siloed communication refers to the situation where information and communication within an organisation are restricted to specific departments, teams, or individuals, this hinders the flow of information across various areas. When producing products this can lead to a lack of collaboration, poor coordination, and limited sharing of knowledge between stakeholders [8]. ' },
   {'id': 9, 'title': 'Agile', 'description': 'Agile is an iterative approach to software development. It emphasises flexibility, collaboration, and adaptability. It involves the delivery of working software in short iterations or time periods, which prioritises customer satisfaction, and empowers self-organising teams. Agile methodologies can enable businesses to be responsive, efficient, and better equipped to meet changing customer needs [9].' },
   {'id': 10, 'title': 'Lead Time for Changes', 'description': 'Lead time for change refers to the duration it takes to implement and deliver a change in a software development operations environment. It measures the time from the initiation of a change request to its deployment and availability in a production environment. It is a crucial metric for assessing the efficiency and effectiveness of change management processes, it provides an insight into the ability of an organisation to deliver changes and updates to systems or software applications [7].' },
-/*  {'id': 11, 'title': 'Heading 1', 'description': 'This is a description fo the work' },
-  {'id': 12, 'title': 'Heading 1', 'description': 'This is a description fo the work' },
-  {'id': 13, 'title': 'Heading 1', 'description': 'This is a description of the work' },
-  {'id': 14, 'title': 'Heading 1', 'description': 'This is a description fo the work' },
-  {'id': 15, 'title': 'Heading 1', 'description': 'This is a description fo the work' },
-  {'id': 16, 'title': 'Heading 1', 'description': 'This is a description fo the work' },
-  {'id': 17, 'title': 'Heading 1', 'description': 'This is a description of the work' },
-  {'id': 18, 'title': 'Heading 1', 'description': 'This is a description fo the work' },
-  {'id': 19, 'title': 'Heading 1', 'description': 'This is a description fo the work' },
-  {'id': 20, 'title': 'Heading 1', 'description': 'This is a description fo the work' },
-  */ 
+  {'id': 11, 'title': 'Enterprise System', 'description': 'An enterprise system, or ERP system, is a software application that integrates and manages core business processes within an organisation. It streamlines functions like finance, HR, supply chain, and customer relations. By providing a central platform, it improves efficiency, data visibility, and decision-making [10].' },
+  {'id': 12, 'title': 'FinOps', 'description': 'FinOps, short for Financial Operations, is a framework that optimises cloud financial management. It involves collaboration between finance, operations, and engineering teams to control and optimise cloud costs. By promoting cost awareness, allocation, and optimisation, FinOps enables organisations to make informed decisions and achieve cost-effective cloud operations [11].' },
+  {'id': 13, 'title': 'Digital Transformation', 'description': 'Digital transformation is the integration and adoption of digital technologies and processes across an organisation with the goal of driving beneficial changes in its operations, services, and customer experiences. It involves leveraging technology to enhance efficiency, agility, innovation, and competitiveness in the digital age [12].' },
+  {'id': 14, 'title': 'AIOps', 'description': 'AIOps, or Artificial Intelligence for IT Operations, is an approach that combines artificial intelligence and machine learning with traditional IT operations, this allows the enhancement of efficiency and improving decision-making. It involves automating and analyzing vast amounts of data from various IT systems to detect and resolve issues, optimize performance, and enhance IT operations [13].' },
+  {'id': 15, 'title': 'SDLC (Software Development Life-cycles', 'description': 'SDLC, or Software Development Life Cycle, is a structured approach to developing software applications. It encompasses a series of phases, including requirements gathering, design, coding, testing, deployment, and maintenance. SDLC ensures systematic development, quality assurance, and efficient management of software projects from start to finish [14].' },
+  {'id': 16, 'title': 'CI/CD Pipelines', 'description': 'Continuous Integration/Continuous Delivery pipelines are automated processes that enable developers to build, test, and deploy software applications. CI/CD ensures a more reliable software development and delivery. This involves integrating code changes frequently, delivering updates to production environments and running automated tests. [15].' },
+  {'id': 17, 'title': 'Monolithic Application', 'description': 'A monolithic application refers to a software architecture where the entire application is built as a single, self-contained unit. It generally has a singular codebase, database, and user interface. Monolithic applications are tightly coupled and lack modularity, making them harder to scale, maintain, and update compared to more distributed and modular architectures [16].' },
+  {'id': 18, 'title': 'Waterfall Software Development', 'description': 'Waterfall software development is a sequential approach to software development. Its approach is structured with phases; requirement gathering, design, development, testing, and deployment are completed before moving on to the next. This approach does not have flexibility and emphasises documentation and upfront planning [17].' },
+  {'id': 19, 'title': 'Heroku', 'description': 'Heroku is a cloud-based platform as a service (PaaS) which grants developers the ability to build, deploy, and manage applications. It supports various programming languages and frameworks while providing a scalable and flexible environment for hosting web applications. Heroku abstracts infrastructure complexities, making it easier to focus on application development and deployment [18].' },
+  {'id': 20, 'title': 'CX (Customer Experience)', 'description': 'Customer Experience, is the overall opinion and satisfaction that customers have with a company based on their interactions throughout their journey. This includes all touchpoints, from the initial contact to post-purchase support, and prioritises delivering exceptional experiences to build loyalty and drive business growth [19].' },
 ];
 
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Glossary', subheading: 'Glossary part 1/5', subheading1: 'Reference List', items: itemList });
+  res.render('index', { title: 'Glossary', subheading: 'Glossary part 2/5', subheading1: 'Reference List', items: itemList });
 });
 
 module.exports = router;
