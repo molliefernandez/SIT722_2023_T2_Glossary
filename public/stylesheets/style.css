@@ -1,8 +1,17 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Calibri Light", sans-serif;
+  background-color: lightcyan;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+  font: 40px "Calibri Light"
+}
+
+h2 {
+  font: 25px "Calibri Light"
+}
+
+table, tr, td {
+  border: 1px solid;
 }

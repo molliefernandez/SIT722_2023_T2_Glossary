@@ -4,21 +4,55 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
+
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <p> This site belongs to Mollie Fernandez</p>
-    <ul>
-      <% items.forEach(item) => { %>
-        <li>
-          <h2>
-            <%= item.id %>
-          </h2>
-          <p>
-            <% item.title %>
-          </p>
-        </li>
-      }
-    </ul>
-  </body>
+    <p>Welcome to <%= subheading %></p>
+    <table>
+      <% items.forEach((item) => { %>
+        <tr>
+          <td>
+              <%= item.id %>
+          </td>
+          <td>
+              <%= item.title %>
+          </td>
+          <td>
+            <%= item.description %>
+          </td>
+        </tr>
+        <% }); %>
+      </table>
+      <br></br>
+      <h2><%= subheading1 %></h2>
+      <list>
+          <ul>
+            [1] W Kenton. (2023, January 9). What Is Bootstrapping? What It Means and How It’s Used in Investing [website]. Available: https://www.investopedia.com/terms/b/bootstrapping.asp#:~:text=Bootstrapping%20describes%20a%20situation%20in,revenues%20of%20the%20new%20company.
+          </ul>
+          <ul>  
+            [2]	Kubernetes (n.d.). Overview [website]. Available: https://kubernetes.io/docs/concepts/overview/
+          </ul>
+          <ul>
+            [3]	Terraform. (n.d.). What is Terraform? [website]. Available: https://developer.hashicorp.com/terraform/intro
+          </ul>
+          <ul>
+            [4]	Amazon Web Services. (n.d.). What is Docker? [website]. Available: https://aws.amazon.com/docker/#:~:text=Docker%20is%20a%20software%20platform,tools%2C%20code%2C%20and%20runtime.
+          </ul>
+          <ul>
+            [5]	Microservice Architecture. (n.d.). What are microservices? [website]. Available: https://microservices.io/
+          </ul>
+          <ul>
+            [6]	Red Hat. (2023, March 10). What is DevSecOps? [website]. Available: https://www.redhat.com/en/topics/devops/what-is-devsecops#:~:text=DevSecOps%20stands%20for%20development%2C%20security,throughout%20the%20entire%20IT%20lifecycle.
+          </ul>
+          <ul>
+            [7]	D Smith, D Villalba, M Irvine, D Stanke and N Harvey, “State of DevOps 2021”, Google, 2021.
+          </ul>
+          <ul>
+            [8]	C Marketos (2022, June 14). Avoiding the Silo of team Communication [website]. Available: https://www.helpscout.com/blog/cross-team-communication/#:~:text=A%20communication%20silo%20occurs%20when,decisions%2C%20and%20poor%20customer%20support.
+          </ul>
+          <ul>
+            [9]	Atlassian. (n.d.) What is the Agile Methodology? [website]. Available: https://www.atlassian.com/agile
+          </ul>
+        </list>
+    </body>
 </html>
