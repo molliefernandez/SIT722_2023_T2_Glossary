@@ -34,6 +34,17 @@ const itemList = [
   {'id': 28, 'title': 'Technical Debt', 'description': 'Technical debt refers to when you are required to redo some part of the project due to taking shortcuts or using less reliable solutions, usually due to a cheaper cost [20].' },
   {'id': 29, 'title': 'COTS (Commercial Off The Shelf)', 'description': 'Commercial Off-The-Shelf (COTS) refers to software products that are ready-made and available for purchase. COTS products are pre-built and designed for widespread use without being customisable [21].' },
   {'id': 30, 'title': 'SDO (Software Delivery and Operations)', 'description': 'In software delivery operations (SDO), SDO represents the systematic management of processes, tools, and teams involved in deploying, maintaining, and optimising software applications. SDO ensures efficient code delivery, continuous integration, and seamless operations [22].' },
+  {'id': 31, 'title': 'API', 'description': 'An Application Programming Interface is a set of rules and protocols that allow different software applications to communicate and interact with each other, enabling data and functionality sharing [23].'},
+  {'id': 32, 'title': 'Decouple', 'description': 'Decoupling in microservices entails creating independent services that operate autonomously, reducing interdependencies for improved scalability, maintainability, and flexibility within the architecture [23].' },
+  {'id': 33, 'title': 'Holacracy', 'description': 'Holacracy is a self-management organisational framework where authority is distributed across autonomous teams or "circles," fostering agile decision-making, accountability, and adaptability in a hierarchical-free structure [23].' },
+  {'id': 34, 'title': 'SSH', 'description': 'SSH (Secure Shell) is a secure network protocol for encrypted communication, authentication, and remote server management, ensuring data confidentiality and integrity during remote access and file transfers [24].' },
+  {'id': 35, 'title': 'Compose', 'description': 'Docker Compose is a tool that simplifies the management of multi-container Docker applications by allowing users to define and run complex application stacks using a YAML configuration file [24].' },
+  {'id': 36, 'title': 'Base Image', 'description': 'A base image is the starting point for creating container images. It provides essential components and serves as a foundation for customizing containers with application code and dependencies [24].' },
+  {'id': 37, 'title': 'Cluster', 'description': 'A cluster is a group of interconnected computers or servers that work together as a single system to provide high availability, scalability, and redundancy for applications and services [24].' },
+  {'id': 38, 'title': 'Container Image', 'description': 'A container image is a standalone and executable package containing application code and dependencies, designed for consistent deployment across various computing environments using containerization technology [24].' },
+  {'id': 39, 'title': 'Node', 'description': 'In computing, a node refers to a fundamental unit within a network or data structure. It can be a device, server, or point in a network graph, holding and processing data [24].' },
+  {'id': 40, 'title': 'Registry', 'description': 'A registry is a centralised database or repository that stores and manages metadata and artifacts, often used for version control, software distribution, or container image storage in computing [24].' },
+
 ];
 
 
