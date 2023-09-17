@@ -44,13 +44,23 @@ const itemList = [
   {'id': 38, 'title': 'Container Image', 'description': 'A container image is a standalone and executable package containing application code and dependencies, designed for consistent deployment across various computing environments using containerization technology [24].' },
   {'id': 39, 'title': 'Node', 'description': 'In computing, a node refers to a fundamental unit within a network or data structure. It can be a device, server, or point in a network graph, holding and processing data [24].' },
   {'id': 40, 'title': 'Registry', 'description': 'A registry is a centralised database or repository that stores and manages metadata and artifacts, often used for version control, software distribution, or container image storage in computing [24].' },
+  {'id': 41, 'title': 'Docker Swarm', 'description': 'Docker Swarm is Dockers native orchestration and clustering tool, allowing the creation and management of a group of Docker containers as a single, scalable, and highly available service [24].'},
+  {'id': 42, 'title': 'Virtual Machine', 'description': 'A virtual machine is a software emulation of a physical computer, running an independent operating system, allowing multiple VMs to run on a single physical server for resource isolation and flexibility [24].' },
+  {'id': 43, 'title': 'Volume', 'description': 'A volume is a mechanism for persistently storing and sharing data between containers or between a container and the host system, facilitating data management and persistence in containerised applications [24].' },
+  {'id': 44, 'title': 'Swarm Mode', 'description': 'Swarm mode in Docker enables orchestration and clustering of multiple Docker hosts, forming a swarm. It manages services, load balancing, scaling, and high availability for containerised applications across the swarm [24].' },
+  {'id': 45, 'title': 'Container Storage Interference (CSI)', 'description': 'Container storage interference refers to conflicts and resource contention among containers for access to shared storage resources, leading to performance issues or data corruption in multi-container pods [25].' },
+  {'id': 46, 'title': 'Device Plugin', 'description': 'A device plugin in Kubernetes is a specialised component that enables the allocation and management of hardware devices (e.g., GPUs, FPGAs) to containers, enhancing resource utilisation and performance [25].' },
+  {'id': 47, 'title': 'End Points', 'description': 'Endpoints are network service discovery objects that represent the IP addresses and ports of pods, allowing other pods to connect and communicate with a specific service [25].' },
+  {'id': 48, 'title': 'Google Kubernetes Engine (GKE)', 'description': 'Google Kubernetes Engine (GKE) is a managed Kubernetes service offered by Google Cloud that simplifies the deployment, management, and scaling of containerised applications using Kubernetes orchestration technology [25].' },
+  {'id': 49, 'title': 'kubectl', 'description': 'kubectl is a command-line tool for managing and interacting with Kubernetes clusters. It enables users to deploy, scale, inspect, and control containerised applications running in Kubernetes environments [25].' },
+  {'id': 40, 'title': 'Load Balancing', 'description': 'Load balancing in Kubernetes evenly distributes incoming network traffic across multiple pods or containers within a service, ensuring high availability, scalability, and optimal resource utilisation for applications [25].'},
 
 ];
 
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Glossary', subheading: 'Glossary part 3/5', subheading1: 'Reference List', items: itemList });
+  res.render('index', { title: 'Glossary', subheading: 'Glossary part 5/5', subheading1: 'Reference List', items: itemList });
 });
 
 module.exports = router;
